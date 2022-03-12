@@ -3,12 +3,13 @@
   width: 300px;
   padding: 10px;
   position: fixed;
-  right: 0;
-  opacity: 30%;
-  transition: .5s;
+  transition: .5s; 
+  right: -230px;
+  transform: rotate(-90deg);
 }
 .cart:hover{
-  opacity: 100%;
+  right: 0;
+  transform: rotate(0deg);
 }
 
 .search-field {
