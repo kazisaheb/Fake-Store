@@ -88,3 +88,14 @@ const updateTotal = () => {
   document.getElementById("total").innerText = grandTotal;
 };
 
+// Cart show hide
+const myCart = document.getElementById('my-cart')
+
+showCart = () => {
+  myCart.style.transform = "rotate(0deg)"
+  myCart.style.right = "0px"
+}
+hideCart = () => {
+  myCart.style.transform = "rotate(-90deg)"
+  myCart.style.right = "-230px"
+}
