@@ -44,7 +44,7 @@
   padding: 10px;
   transition: 0.6s;
 }
-.single-product:hover {
+.single-product:hover,.cart:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid cyan;
