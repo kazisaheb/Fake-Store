@@ -8,6 +8,10 @@
   transform: rotate(-90deg);
 }
 
+.cart:focus {
+  background-color:red;
+}
+
 .search-field {
   border: none;
   border-radius: 50px;
@@ -52,4 +56,8 @@
 .product-image {
   width: 150px;
   height: 150px;
+}
+button:focus{
+  background-color: cornflowerblue;
+  color:white;
 }
